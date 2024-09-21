@@ -11,9 +11,7 @@ let cid = [
   ['TWENTY', 80],
   ['ONE HUNDRED', 0]
 ];
-function setPrice() {
-  price = document.getElementById("item_price").value;
-}
+
 
 function compute() {
     var price_display = document.getElementById("price");
