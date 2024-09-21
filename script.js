@@ -1,5 +1,5 @@
 // Global variables for price and cid
-let price = 19.5; // Example price
+let price = 0; // Example price
 let cid = [
   ['PENNY', 0.5],
   ['NICKEL', 0],
@@ -11,6 +11,9 @@ let cid = [
   ['TWENTY', 0],
   ['ONE HUNDRED', 0]
 ];
+function setPrice() {
+  price = document.getElementById()
+}
 
 function compute() {
     var price_display = document.getElementById("price");
