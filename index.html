@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+</head>
+<body>
+
+    <!-- Input for customer cash -->
+    <label for="cash">Cash Given: </label>
+    <input type="number" id="cash" placeholder="Enter cash amount">
+
+    <!-- Display the price of the item -->
+    <div id="price"></div>
+
+    <!-- Display the result or change due -->
+    <p id="change-due"></p>
+
+    <!-- Buttons for actions -->
+    <button id="purchase-btn" onclick="compute()">Complete Purchase</button>
+    <button id="reset-btn" onclick="reset()">Reset</button>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
