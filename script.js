@@ -2,13 +2,13 @@
 let price = 0; // Example price
 let cid = [
   ['PENNY', 0.5],
-  ['NICKEL', 0],
-  ['DIME', 0],
-  ['QUARTER', 0],
-  ['ONE', 0],
-  ['FIVE', 0],
-  ['TEN', 0],
-  ['TWENTY', 0],
+  ['NICKEL', 5],
+  ['DIME', 5],
+  ['QUARTER', 5],
+  ['ONE', 20],
+  ['FIVE', 35],
+  ['TEN', 60],
+  ['TWENTY', 80],
   ['ONE HUNDRED', 0]
 ];
 function setPrice() {
