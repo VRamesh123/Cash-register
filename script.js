@@ -12,7 +12,7 @@ let cid = [
   ['ONE HUNDRED', 0]
 ];
 function setPrice() {
-  price = document.getElementById()
+  price = document.getElementById("item_price").value;
 }
 
 function compute() {
